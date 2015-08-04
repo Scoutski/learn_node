@@ -13,3 +13,11 @@ Intro to the REPL shell:
 - '.load (filename).js' can be used to load up a file into the current terminal session.
 - '.help' will list out all the available REPL commands.
 
+Understanding Callbacks in Node.js:
+-----------------------------------
+SEE: (callbacks.js & callbacks2.js)
+- Callbacks in Node.js are used to perform asynchronous server functions.
+- Callbacks allow us to reuse generic functions without having to bloat the code and making it more readable.
+
+Node.js global namespace:
+-------------------------
