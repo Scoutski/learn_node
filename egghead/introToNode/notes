@@ -1,0 +1,15 @@
+Node 
+====
+
+Intro to the REPL shell:
+------------------------
+- REPL stands for Read, Evaluate, Print, Loop.
+- It's a command like interface for node run through the terminal.
+- typing 'node' without additional arguments in iTerm opens the node REPL shell.
+- the '_' character is reserved in node, it returns the result of the last run operation.
+- It is possible to write multiline functions by opening a { at the end of a line and it will allow you to hit return and add more code until the } is added.
+- ctrl + C or the words 'break' or 'clear' can be used to cancel the current context to return you to the prompt.
+- '.save (filename).js' can save all the operations completed in the current terminal session to the specified filename.
+- '.load (filename).js' can be used to load up a file into the current terminal session.
+- '.help' will list out all the available REPL commands.
+
