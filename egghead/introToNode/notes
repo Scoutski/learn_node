@@ -21,3 +21,22 @@ SEE: (callbacks.js & callbacks2.js)
 
 Node.js global namespace:
 -------------------------
+- When a variable is defined inside a node application it is defined within the 'global' variable.
+- If you enter 'global' in repl, it lists out all the global variables.
+- 'require' is a global object that is responsible for loading different modules.
+- 'require' allows us to keep different code inside different modules.
+- Once a module is loaded with require, all methods that were written with exports.methodName will exist in the variable that was created with the require.
+- e.g.
+  in addition.js:
+  exports.addNumbers = function(num1, num2) {
+    return num1 + num;
+  }
+
+  in the node shell or another node file:
+  var mikeMaths = require('./src/addition.js');
+  mikeMaths.addNumbers(3,6);
+  // will return 9;
+
+Node.js process object:
+-----------------------
+- 

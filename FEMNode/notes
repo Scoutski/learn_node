@@ -1,0 +1,26 @@
+Node.js notes:
+- Express is the defacto web framework in Node right now.
+- Mongoose is an object/document mapper for Mongo.db
+- Mongoose is the closest things to ActiveRecord in the rails world.
+- Socket.io is useful for creating realtime apps.
+
+Why Node.js?
+- Same programming culture on client and server.
+- There is a vibrant community with over 60000+ packages on NPM.
+- Node is excellent for handling real-time apps with high concurrency.
+- Node is good backend for mobile clients.
+- JSON data is very easy to pass data between the back and front end as they speak the same language.
+- Not great for simple CRUD applications that use relational databases.
+- Not the best for CPU-intensive operations.
+
+What is Node.js?
+- An event driven v8 JavaScript library.
+- Operations tend to be asynchronous.
+- APIs read/write data using 'Streams'.
+- Node is extensible using C/C++ add-ons.
+- Node provides a package manager for using modules.
+- Node is not a framework like Django or Rails.
+- Node is essentially a programming langugage.
+
+Basic Features of Node:
+- Most node libraries are asynchronous by default.
